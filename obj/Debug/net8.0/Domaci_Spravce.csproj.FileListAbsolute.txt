@@ -1,0 +1,14 @@
+C:\Users\mo073268\Downloads\CSharp1\csharp2\Domaci_Spravce\bin\Debug\net8.0\Domaci_Spravce.exe
+C:\Users\mo073268\Downloads\CSharp1\csharp2\Domaci_Spravce\bin\Debug\net8.0\Domaci_Spravce.deps.json
+C:\Users\mo073268\Downloads\CSharp1\csharp2\Domaci_Spravce\bin\Debug\net8.0\Domaci_Spravce.runtimeconfig.json
+C:\Users\mo073268\Downloads\CSharp1\csharp2\Domaci_Spravce\bin\Debug\net8.0\Domaci_Spravce.dll
+C:\Users\mo073268\Downloads\CSharp1\csharp2\Domaci_Spravce\bin\Debug\net8.0\Domaci_Spravce.pdb
+C:\Users\mo073268\Downloads\CSharp1\csharp2\Domaci_Spravce\obj\Debug\net8.0\Domaci_Spravce.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mo073268\Downloads\CSharp1\csharp2\Domaci_Spravce\obj\Debug\net8.0\Domaci_Spravce.AssemblyInfoInputs.cache
+C:\Users\mo073268\Downloads\CSharp1\csharp2\Domaci_Spravce\obj\Debug\net8.0\Domaci_Spravce.AssemblyInfo.cs
+C:\Users\mo073268\Downloads\CSharp1\csharp2\Domaci_Spravce\obj\Debug\net8.0\Domaci_Spravce.csproj.CoreCompileInputs.cache
+C:\Users\mo073268\Downloads\CSharp1\csharp2\Domaci_Spravce\obj\Debug\net8.0\Domaci_Spravce.dll
+C:\Users\mo073268\Downloads\CSharp1\csharp2\Domaci_Spravce\obj\Debug\net8.0\refint\Domaci_Spravce.dll
+C:\Users\mo073268\Downloads\CSharp1\csharp2\Domaci_Spravce\obj\Debug\net8.0\Domaci_Spravce.pdb
+C:\Users\mo073268\Downloads\CSharp1\csharp2\Domaci_Spravce\obj\Debug\net8.0\Domaci_Spravce.genruntimeconfig.cache
+C:\Users\mo073268\Downloads\CSharp1\csharp2\Domaci_Spravce\obj\Debug\net8.0\ref\Domaci_Spravce.dll
