@@ -9,3 +9,4 @@ Použité principy objektově orientovaného programování:
 - Třídy: Ukol, SpravceUkolu
 - Vlastnosti: Nazev, Popis, Termin, JeHotovo
 - Metody: VypisUkol, PridatUkol, VypisVsechnyUkoly
+
