@@ -1,0 +1,11 @@
+Název projektu: Domácí Správce
+
+Popis:
+Jednoduchá konzolová aplikace v jazyce C#, která slouží ke správě domácích úkolů.
+Uživatel může přidávat úkoly, které mají název, popis, termín a informaci, zda jsou hotové.
+Aplikace také vypisuje všechny úkoly do konzole.
+
+Použité principy objektově orientovaného programování:
+- Třídy: Ukol, SpravceUkolu
+- Vlastnosti: Nazev, Popis, Termin, JeHotovo
+- Metody: VypisUkol, PridatUkol, VypisVsechnyUkoly
