@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Domaci_Spravce")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+acea3f894d9fc0cc9ded0a7aaefa35d29c34f292")]
 [assembly: System.Reflection.AssemblyProductAttribute("Domaci_Spravce")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Domaci_Spravce")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
