@@ -2,14 +2,15 @@ using System;
 
 namespace DomaciSpravce
 {
-    // Reprezentuje jeden úkol
-    public class Ukol
+    // Ukol implementuje interface IVypisovatelny
+    public class Ukol : IVypisovatelny
     {
         public string Nazev { get; set; }
         public string Popis { get; set; }
         public DateTime Termin { get; set; }
         public bool JeHotovo { get; set; }
 
+        // Povinná metoda z interface IVypisovatelny
         public void VypisUkol()
         {
             Console.WriteLine("---------------");
