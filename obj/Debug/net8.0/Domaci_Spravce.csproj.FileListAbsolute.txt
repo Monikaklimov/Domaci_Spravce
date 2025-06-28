@@ -12,3 +12,4 @@ C:\Users\mo073268\Downloads\CSharp1\csharp2\Domaci_Spravce\obj\Debug\net8.0\refi
 C:\Users\mo073268\Downloads\CSharp1\csharp2\Domaci_Spravce\obj\Debug\net8.0\Domaci_Spravce.pdb
 C:\Users\mo073268\Downloads\CSharp1\csharp2\Domaci_Spravce\obj\Debug\net8.0\Domaci_Spravce.genruntimeconfig.cache
 C:\Users\mo073268\Downloads\CSharp1\csharp2\Domaci_Spravce\obj\Debug\net8.0\ref\Domaci_Spravce.dll
+C:\Users\mo073268\Downloads\CSharp1\csharp2\Domaci_Spravce\obj\Debug\net8.0\Domaci_Spravce.sourcelink.json

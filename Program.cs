@@ -7,60 +7,46 @@ namespace DomaciSpravce
         static void Main(string[] args)
         {
             SpravceUkolu spravce = new SpravceUkolu();
-            spravce.NactiUkoly();
-
             bool pokracovat = true;
+
             while (pokracovat)
             {
-                Console.WriteLine("\n📌 MENU:");
+                Console.WriteLine("\nDomácí správce - nabídka:");
                 Console.WriteLine("1 - Přidat úkol");
                 Console.WriteLine("2 - Vypsat všechny úkoly");
-                Console.WriteLine("3 - Uložit úkoly");
-                Console.WriteLine("4 - Konec");
+                Console.WriteLine("3 - Vyhledat úkol");
+                Console.WriteLine("4 - Označit úkol jako hotový");
+                Console.WriteLine("5 - Zobrazit statistiky");
+                Console.WriteLine("0 - Konec");
+                Console.Write("Vyberte možnost: ");
 
-                Console.Write("Zadej volbu: ");
-                string volba = Console.ReadLine();
-
-                switch (volba)
+                switch (Console.ReadLine())
                 {
                     case "1":
-                        Ukol novy = new Ukol();
-
-                        Console.Write("Zadej název: ");
-                        novy.Nazev = Console.ReadLine();
-
-                        Console.Write("Zadej popis: ");
-                        novy.Popis = Console.ReadLine();
-
-                        Console.Write("Zadej termín (RRRR-MM-DD): ");
-                        novy.Termin = DateTime.Parse(Console.ReadLine());
-
-                        Console.Write("Je hotovo? (ano/ne): ");
-                        novy.JeHotovo = Console.ReadLine().ToLower() == "ano";
-
-                        spravce.PridatUkol(novy);
+                        spravce.PridatUkol();
                         break;
-
                     case "2":
-                        spravce.VypisVsechnyUkoly();
+                        spravce.VypsatUkoly();
                         break;
-
                     case "3":
-                        spravce.UlozUkoly();
-                        Console.WriteLine("✅ Úkoly byly uloženy.");
+                        spravce.VyhledatUkol();
                         break;
-
                     case "4":
-                        pokracovat = false;
-                        spravce.UlozUkoly();
-                        Console.WriteLine("👋 Konec programu.");
+                        spravce.DokoncitUkol();
                         break;
-
+                    case "5":
+                        spravce.ZobrazitStatistiky();
+                        break;
+                    case "0":
+                        pokracovat = false;
+                        break;
                     default:
                         Console.WriteLine("Neplatná volba.");
                         break;
                 }
             }
+
+            Console.WriteLine("Děkujeme za použití aplikace Domácí Správce.");
         }
     }
 }
