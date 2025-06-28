@@ -1,5 +1,3 @@
-using System;
-
 namespace DomaciSpravce
 {
     public abstract class Zaznam
@@ -8,3 +6,4 @@ namespace DomaciSpravce
         public abstract void VypisUkol();
     }
 }
+
